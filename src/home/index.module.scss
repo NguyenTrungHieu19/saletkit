@@ -1,0 +1,309 @@
+@media (min-width:1024px) {
+    .packages h3{
+        margin: 0;
+        text-align: center;
+        font-size: 28px;
+        color: rgb(59, 156, 231);
+    }
+    .banner{
+        position: relative;
+    }
+    .header_menu_mobile{
+        display: none;
+    }
+    .banner_category_content{
+        position: absolute;
+        top: 80px;
+        left: 230px;
+    }
+    .packages{
+        padding-top: 60px;
+    }
+    .banner img{
+        height: 500px;
+    }
+    .banner_seo img , .banner img{
+        width: 90%;
+        margin: auto;
+        display: flex;    
+    }
+    .banner_category_content button{
+        padding:10px 30px ;
+        color: #fff;
+        background: linear-gradient(to right, red, yellow);
+        border: none;
+        font-size: 24px;
+        border-radius: 25px;
+        align-items: center;
+        display: flex;
+        column-gap: 10px;
+        margin-top: 30px;
+    }
+    .banner_category_content h1{
+        color:rgb(215, 235, 35)
+    }
+    .banner_seo_wapper{
+        margin-top: 60px;
+    }
+    .banner_seo{
+        position: relative;
+    }
+    .packages_title{
+        margin: auto;
+        max-width: 750px;
+        text-align: center;
+    }
+    .packages_container{
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+    .packages_container p{
+        max-width: 230px;
+    }
+    .icon_seo{
+        font-size:40px;
+    }
+    .packages_content{
+        margin-top: 50px;
+        text-align: center;
+        background-color: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.10);
+        padding: 18px 20px 30px 20px ;
+    }
+    .icon_package{
+        font-size: 36px; 
+        color: rgb(161, 220, 242);       
+    }
+    .seo_title {
+        text-align: center;
+        font-size: 28px;
+        color: rgb(59, 156, 231);
+        position: absolute;
+        top:20px;
+        left: 35%;
+    }
+    .button_wapper{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+        position: absolute;
+        top: 116px;
+        left: 14%;
+    }
+    .banner_button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: #FFF;
+        max-width: 200px;
+        min-width: 250px;
+      
+    }
+    .introduce_title p, .introduce_title h3{
+        width: 510px;
+        margin: 0;
+        padding-bottom: 5px;
+        
+    }
+    .introduce_content{
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+    .introduce_title{
+        padding-bottom: 20px;
+    }
+    .bannner_introduce{
+        padding-top: 50px;
+        padding-left: 200px;
+        position: absolute;
+        top :200px
+    }
+    .choose_package h1{
+        text-align:center ;
+        font-size: 28px;
+        color: rgb(59, 156, 231);
+    }
+    .choose_package h5{
+        max-width: 690px;
+        margin: auto;
+        text-align: center;
+    }
+    .packages_navbar_content{
+        display: flex;
+        align-items: center;
+    }
+    .round{
+        position: absolute;
+        top: 25%;
+        left:-15px;
+        width: 30px;
+        height: 30px;
+        background-color: rgb(38, 127, 244);
+        border-radius: 50%;
+        text-align: center;
+        align-items: center;
+        color: #fff;
+    }
+    .packages_navbar_content{
+        position: relative;
+     
+    }
+    .choose_package_navbar{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between ;
+        margin: auto;  
+        row-gap: 20px;
+        column-gap: 10px;
+        padding-top: 30px;
+    }
+    .packages_navbar_content{
+        width: 48%;
+    }
+    .packages_navbar_box{
+        background-color: #fff;
+        box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.10);  
+        border-radius: 10px;
+    }
+    .navbar_box_title {
+        padding: 10px 15px 10px 40px;
+        margin: 0;
+        max-width:max-content;
+       
+    }
+    .table_price_service{
+        display: flex;
+        margin: auto;
+        column-gap: 20px;
+        width: 60%;
+    }
+    .price_service_backgroud_available{
+        background-color: rgb(29, 206, 250);
+    }
+    .price_service_backgroud_private{
+        background-color: rgb(52, 89, 236);
+    }
+    .price_service_backgroud_complicated{
+        background-color: rgb(250, 121, 29);
+    }
+    .price_service_backgroud_available, .price_service_backgroud_private, .price_service_backgroud_complicated{
+        width: 33.3%;
+        height:250px;
+        display: grid;
+        margin-top: 100px;
+        border-radius: 10px;
+        position: relative;
+        
+    }
+    .service_avaliable, .private_avaliable, .service_complicated{
+        width: 90%;
+        margin: auto;
+        background-color: #fff;
+        height:450px;
+        place-items: center;
+        position: absolute;
+        border-radius: 30px;
+        box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.10);
+        top: -40%;
+        left: 5%;  
+    }
+    .content_text_avaliable,.content_text_private,.content_text_complicated{
+        display: flex;
+        align-items: center;
+        padding: 10px 10px 10px 10px ;    
+        column-gap: 10px;
+    }
+    .content_text_avaliable p,.content_text_private p,.content_text_complicated p{
+        margin: 0;
+    }
+
+    .avaliable_title, .avaliable_price, .private_title, .private_price, .complicated_title, .complicated_price{
+        text-align: center;
+        margin: 0;
+    }
+    .avalibale_button, .private_button, .complicated_button{
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+        left: 20%;
+    }
+    .avalibale_button button , .private_button button, .complicated_button button {
+
+        border: none;
+        padding:10px  20px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        border-radius: 20px;
+    }
+    .avalibale_button button{
+        background-color: rgb(29, 206, 250);
+    }
+    .private_button button {
+        background-color: rgb(52, 89, 236);
+    }
+    .complicated_button button {
+        background-color: rgb(250, 121, 29);
+    }
+    .icon_complicated {
+        color:rgb(250, 121, 29) ;
+    }
+    .icon_private{
+        color:rgb(52, 89, 236);
+    }
+    .icon_avalibale{
+        color: rgb(29, 206, 250);
+    }
+    .avaliable_title{
+        background-color: rgb(29, 206, 250);
+    }
+    .private_title{
+        background-color: rgb(52, 89, 236);
+    }
+    .complicated_title{
+        background-color:rgb(250, 121, 29) ;
+    }
+    .avaliable_title p, .private_title p, .complicated_title p{
+        margin: 0;
+        padding: 0 50px;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFF;
+      
+    }
+    .avaliable_title , .private_title , .complicated_title {
+        width: 80%;
+        margin: auto;
+        padding: 10px 0;
+        border-bottom-left-radius: 50px; 
+        border-bottom-right-radius: 50px; 
+    }
+    .service_wapper h2{
+        text-align: center;
+        padding:20px 0;
+        color:rgb(66, 186, 241);
+    }
+    .avaliable_price p , .private_price p,.complicated_price p {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .avaliable_price p {
+        color: rgb(29, 206, 250);
+    }
+    .private_price p{
+        color: rgb(52, 89, 236);
+    }
+    .complicated_price p{
+        color: rgb(250, 121, 29) ;;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 940px){
+
+}
